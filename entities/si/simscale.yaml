@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-05T05:50:00.000Z
   category: design
 profile:
+  summary: SimScale is a cloud-native engineering simulation platform for fluid dynamics, structural, thermal, and electromagnetic analysis.
   description: SimScale provides cloud-native engineering simulation for fluid dynamics, structural mechanics, thermal analysis, and electromagnetics.
   links:
     site: https://www.simscale.com
@@ -26,40 +27,30 @@ offers:
     offer_slug: onshape-startup-simulation-access
     offer_slug_aliases: []
     title: Three months of SimScale Professional for Onshape startups
-    summary: Eligible Onshape Startup Program members receive three months of free SimScale Professional access, up to 20,000 core hours, and live in-product support.
+    summary: Accepted members of the Onshape Startup Program can use SimScale free for 3 months with a Professional License and up to 20,000 core hours, plus live in-product chat support.
     lifecycle:
       status: active
       effective_from: 2024-12-11T00:00:00.000Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Three months of free SimScale Professional access with up to 20,000 core hours for cloud-native simulation.
+          description: Free SimScale access for 3 months with a Professional License, using up to 20,000 core hours
           kind: free-service
-          service: SimScale Professional License, including up to 20,000 core hours
+          service: SimScale Professional License
           duration:
             kind: exact
             value: P3M
         - benefit_id: ben_02
-          description: Live in-product chat support for expert assistance.
+          description: Live in-product chat support for expert assistance
           kind: other
       consideration:
         kind: none
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            fact: company.partner_memberships
-            kind: predicate
-            operator: contains
-            statement: Applicant must be accepted into the Onshape Startup Program.
-            value:
-              type: string
-              value: Onshape Startup Program
-          - criterion_id: cri_02
-            kind: manual
-            reason: vendor-discretion
-            statement: SimScale access is available to eligible participants in the Onshape Startup Program.
+        criterion_id: cri_01
+        kind: manual
+        reason: external-verification
+        statement: Applicant must be accepted into the Onshape Startup Program as an eligible participant.
     roles:
       terms_authority_entity_id: ent_01m1r1xd1pf8mty60jcbftsxwg
       access_operator_entity_id: ent_01kyxthgq0zvqdgfges3ksm4s0
@@ -67,7 +58,7 @@ offers:
       availability: membership
       method: form
       url: https://www.onshape.com/en/startups
-      instructions: Apply through the Onshape Startup Program. Once accepted, eligible participants can activate the three-month SimScale Professional License benefit; contact SimScale or Onshape for details.
+      instructions: Apply to the Onshape Startup Program. Once accepted, eligible participants activate their three-month free SimScale Professional License, which connects directly to their Onshape account.
     terms_url: https://www.simscale.com/technology/integrations-partners/onshape/
     source_ids:
       - src_5f7bf5451c37adf6ebcf4d53650224cd93a1cc81fc3f64d633cc3bdbeae8a450

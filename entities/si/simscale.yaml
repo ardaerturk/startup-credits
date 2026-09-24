@@ -27,14 +27,14 @@ offers:
     offer_slug: onshape-startup-simulation-access
     offer_slug_aliases: []
     title: Three months of SimScale Professional for Onshape startups
-    summary: Accepted members of the Onshape Startup Program can use SimScale free for 3 months with a Professional License and up to 20,000 core hours, plus live in-product chat support.
+    summary: Eligible members of the Onshape Start-Up Program get three months of free Professional License access to SimScale's cloud-native simulation platform.
     lifecycle:
       status: active
       effective_from: 2024-12-11T00:00:00.000Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Free SimScale access for 3 months with a Professional License, using up to 20,000 core hours
+          description: Access SimScale for free for 3 months via the dedicated Onshape Program.
           kind: free-service
           service: SimScale Professional License
           duration:
